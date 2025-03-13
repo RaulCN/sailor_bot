@@ -12,8 +12,5 @@
     { "src": "/api/processar", "dest": "/api/processar.py" },
     { "src": "/api/relatorio", "dest": "/api/relatorio.py" },
     { "src": "/api/webhook", "dest": "/api/webhook.py" }
-  ],
-  "cron": [
-    "0 * * * *"
   ]
 }
