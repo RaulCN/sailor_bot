@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "functions": {
+    "api/*.py": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  },
+  "routes": [
+    { "src": "/api/agendar", "dest": "/api/agendar.py" },
+    { "src": "/api/lembretes", "dest": "/api/lembretes.py" },
+    { "src": "/api/processar", "dest": "/api/processar.py" },
+    { "src": "/api/relatorio", "dest": "/api/relatorio.py" },
+    { "src": "/api/webhook", "dest": "/api/webhook.py" }
+  ],
+  "cron": [
+    "0 * * * *"
+  ]
+}
